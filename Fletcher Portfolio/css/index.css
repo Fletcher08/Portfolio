@@ -1,0 +1,144 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+  background-color: black;
+}
+.navbar {
+  width: 100%;
+  position: fixed;
+  background: black;
+  margin-bottom: 1%;
+  z-index: 100
+}
+
+.parallax_nao {
+  background-image: url("../images/darwin.jpg");
+  position: relative;
+  opacity: 0.65;
+  height: 30%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.parallax_ms {
+  background-image: url("../images/theCoolThing.jpg");
+  position: relative;
+  opacity: 0.65;
+  height: 30%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bio_txt {
+  margin-top: 10%;
+  height: 20%;
+}
+
+#resume_txt {
+  height: 20%;
+  margin-top: 3%;
+}
+
+#contact_txt {
+  height: 20%;
+  align-content: center;
+  margin-right: -50%;
+  margin-left: 50%;
+  margin-top: 40%;
+}
+
+.glyphicon {
+  
+}
+
+#hamburger:hover {
+  background-color: white;
+}
+
+#carousel-example-generic {
+  height: fixed;
+  margin-top: 12%;
+  margin-bottom: 5%;
+}
+
+.carousel-control.left .glyphicon {
+  height: fixed;
+  margin-left: 0%;
+}
+
+#carousel-example-generic-1 {
+  margin-top: 6%;
+}
+
+#carousel-example-generic-2 {
+  margin-top: 45%;
+}
+
+#contact_slide {
+  margin-top: -30%;
+}
+
+@font-face {
+  font-family: Bodoni;
+  src: url(../Fonts/BOD_i.ttf);
+}
+
+@font-face {
+  font-family: Bodoni_Bold;
+  src: url(../Fonts/BOD_i.ttf);
+  font-weight: bold;
+}
+
+#brand_logo {
+  font-size: 400%;
+  font-family: Bodoni_Bold;
+  color: white;
+}
+
+#home {
+  font-size: 400%;
+  font-family: Bodoni_Bold;
+  color: white;
+}
+
+#burger {
+  width: 10%;
+  height: 10%;
+  color: white;
+}
+
+#bio {
+  margin-top: 15%;
+}
+
+#resume {
+  margin-top: -8%;
+}
+
+footer {
+width: 100%;
+background: black;
+float: left;
+margin: 0 0 .5% 0;
+border-radius: 10px;
+box-shadow: 5px 5px 10px #202020
+}
+
+address {
+font-size : 16px;
+text-align : center;
+color: #efefef;
+padding: 1% 0;
+text-shadow: 1px 1px 0px #202020
+}
+
+#nao {
+  margin-right: -25%;
+}
